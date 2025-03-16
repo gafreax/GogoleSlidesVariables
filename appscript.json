@@ -1,0 +1,27 @@
+{
+    "timeZone": "Europe/Rome",
+    "dependencies": {
+    },
+    "exceptionLogging": "STACKDRIVER",
+    "runtimeVersion": "V8",
+    "addOns": {
+      "common": {
+        "name": "Variable Replacer",
+        "logoUrl": "YOUR_LOGO_URL",
+        "homepageTrigger": {
+          "runFunction": "onOpen",
+          "enabled": true
+        }
+      },
+      "slides": {
+        "homepageTrigger": {
+          "runFunction": "onOpen",
+          "enabled": true
+        }
+      }
+    },
+    "oauthScopes": [
+      "https://www.googleapis.com/auth/presentations",
+      "https://www.googleapis.com/auth/drive"
+    ]
+  }
